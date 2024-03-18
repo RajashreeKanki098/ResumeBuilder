@@ -1,0 +1,22 @@
+.resume{
+    color: #ec437b;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.login-btn{
+    background-color: #EF59A5;
+    border-radius: 5px; 
+    border: none;
+    font-size: 20px;
+}
+.btn-acc{
+    color: blueviolet; 
+    font-weight: 800;
+    margin-left: 37%;
+    text-align: center;
+    background-color: white;
+    border: none;
+}

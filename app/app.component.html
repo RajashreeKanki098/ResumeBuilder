@@ -1,0 +1,65 @@
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a routerLink="/home" routerLinkActive="active" ariaCurrentWhenActive="page" class="resume">ResumeBuilder</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/template" routerLinkActive="active" ariaCurrentWhenActive="page" class="nav-text">Resume Template</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/about" routerLinkActive="active" ariaCurrentWhenActive="page" class="nav-text">About</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/login" routerLinkActive="active" ariaCurrentWhenActive="page" class="nav-text">Login</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/data1" routerLinkActive="active" ariaCurrentWhenActive="page" class="nav-text" style="background-color: #b62be4; border-radius: 5px; font-size: 20px; padding: 10px 20px;">Build Resume</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <router-outlet></router-outlet>
+  <footer style="margin-top: 10%;">
+    <div class="card">
+        <div class="card-header">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-3">
+                        <div class="resume">ResumeBuilder</div>
+                        Using the Resume Builder app, you have a 30% higher chance of getting a job, and our users experience a 42% higher response rate from recruiters. 
+                    </div>
+                    <div class="col-1"></div>
+                    <div class="col-3">
+                        <div class="resume">About Resume Builder</div>
+                        <ul>
+                            <li>Resume Example</li><br>
+                            <li>Resume Template</li><br>
+                            <li>Resume About</li><br>
+                            <li>Resume Builder</li><br>
+                            <li>Login</li><br>
+                        </ul>
+                    </div>
+                    <div class="col-3">
+                        <div class="resume">Contact Us</div>
+                        <ul>
+                            <li><img src="../assets/image/facebook.png" width="40"></li>
+                            <li><img src="../assets/image/instagram.png" width="40"></li>
+                            <li><img src="../assets/image/twitter.png" width="40"></li>
+                            <li><img src="../assets/image/github.png" width="40"></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+</footer>

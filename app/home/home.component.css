@@ -1,0 +1,83 @@
+a{
+    cursor: pointer;
+}
+.spacer{
+    padding-right: 20px;
+  }
+  .animate-charcter
+  {
+    text-transform: uppercase;
+    background-image: linear-gradient(
+      -225deg,
+      #231557 0%,
+      #44107a 29%,
+      #ec437b 67%,
+      #fff800 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 180px;
+    text-align: left;
+  }
+  
+  @keyframes textclip {
+    to {
+      background-position: 300% ;
+    }
+  }
+  nav{
+    font-size: 17px;
+    word-spacing: 10%;
+  }
+  .resume{
+    color: #ec437b;
+    font-size: 17px;
+    font-weight: 500;
+  }
+  
+  .content{
+    background: linear-gradient(98deg, #A053CF 64.09%, #EF59A5 99.28%);
+    width: 100%;
+    min-height: 512px;
+    position: relative;
+    color: white;
+    font-size: 80px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 150px;
+  }
+  
+  .content1{
+    background: linear-gradient(98deg, #EF59A5 17.28%, #A053CF 99.28%);
+    width: 100%;
+    min-height: 512px;
+    position: relative;
+    color: white;
+    font-size: 80px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 150px;
+  }
+  
+  .content2{
+    width: 100%;
+    min-height: 512px;
+    position: relative;
+    color: black;
+    font-size: 20px;
+    padding: 20px 50px;
+    text-align: center;
+    padding-top: 150px;
+  }
+  
+  a{
+    cursor: pointer;
+  }
